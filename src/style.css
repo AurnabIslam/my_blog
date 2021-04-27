@@ -71,16 +71,17 @@
 }
 
 html {
-  line-height: var(--lineHeight-normal);
-  font-size: var(--fontSize-root);
+  line-height:normal;
+  font-size:large;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  font-family: var(--font-body);
-  font-size: var(--fontSize-1);
-  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:medium;
+  color: white;
+  background-color: #000;
 }
 
 footer {
@@ -88,9 +89,10 @@ footer {
 }
 
 hr {
-  background: var(--color-accent);
-  height: 1px;
+  background: grey;
+  height: 10px;
   border: 0;
+ 
 }
 
 /* Heading */
@@ -101,11 +103,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading);
-  margin-top: var(--spacing-12);
-  margin-bottom: var(--spacing-6);
-  line-height: var(--lineHeight-tight);
-  letter-spacing: -0.025em;
+  display: inline-block;
+  align-items: initial;
+  border-radius: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height:normal;
+  letter-spacing: -0.045em;
+  padding: 0.5em;
+  padding-left: 0.5em;
+  
 }
 
 h2,
@@ -113,8 +121,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--fontWeight-bold);
-  color: var(--color-heading);
+  font-weight:bold;
+  color: white;
+  background-color: rgb(85, 76, 76);
 }
 
 h1 {
@@ -124,7 +133,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--fontSize-5);
+  font-size:initial;
 }
 
 h3 {
@@ -160,17 +169,17 @@ h6 > a {
 /* Prose */
 
 p {
-  line-height: var(--lineHeight-relaxed);
+  line-height: 1.5em;
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
-  padding: var(--spacing-0);
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  padding: 1.5em;
 }
 
 ul,
 ol {
-  margin-left: var(--spacing-0);
-  margin-right: var(--spacing-0);
+  margin-left: 0.25em;
+  margin-right: 0.25em;
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
   list-style-position: outside;
@@ -179,7 +188,7 @@ ol {
 
 ul li,
 ol li {
-  padding-left: var(--spacing-0);
+  padding-left: 0.5em;
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
@@ -197,7 +206,7 @@ li > ul {
 }
 
 blockquote {
-  color: var(--color-text-light);
+  color: rgb(71, 238, 0);
   margin-left: calc(-1 * var(--spacing-6));
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);

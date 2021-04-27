@@ -20,9 +20,9 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({
     <Seo title="Using TypeScript" />
     <h1>Gatsby supports TypeScript by default!</h1>
     <p>
-      This means that you can create and write <em>.ts/.tsx</em> files for your
-      pages, components etc. Please note that the <em>gatsby-*.js</em> files
-      (like gatsby-node.js) currently don't support TypeScript yet.
+    Phone apps for WordPress exist for <em> WebOS,Android,</em> <em>.ts/.tsx</em> iOS 
+    (iPhone, iPod Touch, iPad), Windows Phone, and BlackBerry.<em>Plugins</em> 
+    Themes) Web Content Accessibility Guidelines<em>2.0</em>  at level <em>AA</em>.
     </p>
     <p>
       For type checking you'll want to install <em>typescript</em> via npm and
