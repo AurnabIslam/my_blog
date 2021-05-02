@@ -206,8 +206,6 @@ a:focus {
 
 .global-wrapper {
   display: inline;
-  text-align: center;
-
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -244,7 +242,8 @@ a:focus {
 .bio p {
   font: small-caption;
   text-align: center;
-  border-bottom: solid chartreuse;
+  border-bottom: thick var(--link-color);
+  border-radius: 17px;
   margin:auto;
   width: 25%;
 
