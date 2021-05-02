@@ -20,29 +20,26 @@ html {
 }
 
 body {
-
   font-family: Arial, Helvetica, sans-serif;
   font-size:medium;
-  color: white;
-  background-color: rgb(0, 0, 0);
-
+  color: var(--font-color);
+  background-color: var(--background-color);
+  text-align: justify;
 }
 
 footer {
-  text-align: right;
-  margin-bottom:2%;
-  padding: 0.5em;
-  border-radius: 1.5em;
+  text-align: center;
+  padding: 1rem;
+}
+footer a{
+  color: var(--link-color);
 }
 
 hr {
-  
   height: 2.5px;
   border: 0.25em;
   margin-top: 1em;
   margin-bottom: 1em;
-
- 
 }
 
 /* Heading */
@@ -72,36 +69,37 @@ h4,
 h5,
 h6 {
   font-weight:bold;
-  color: white;
-  background-color: rgba(49, 47, 47, 0.511);
+  color: var(--font-color);
+  background-color: var(--background-color);
 }
 
 h1 {
+  font-family: Arial, Helvetica;
   font-weight:bolder;
-  font-size: 1.25em ;
-  color: whitesmoke;
-  background-color: rgba(26, 23, 23, 0.341);
+  font-size: 1.25rem ;
+  color: var(--font-color);
+  background-color: var(--background-color);
 }
 
 h2 {
-  font-size:initial;
+  font-size:1.1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 0.8rem;
 }
 
 h5 {
-  font-size: 1em;
+  font-size: 0.7rem;
 }
 
 h6 {
-  font-size:1em;
+  font-size:0.6rem;
 }
 
 h1 > a {
@@ -114,16 +112,17 @@ h3 > a,
 h4 > a,
 h5 > a,
 h6 > a {
-  text-decoration: rgb(33, 33, 134);
+  text-decoration: var(--link-color);
   color: inherit;
 }
 
 /* Prose */
 
 p {
-   display: block;
+  display: block;
   line-height: 1.5em;
- 
+  font-family: sans-serif;
+  font-size: 1rem;
 }
 
 ul,
@@ -161,14 +160,15 @@ li > ul {
 }
 
 blockquote {
-  color: rgb(71, 238, 0);
-  margin-left: 0.45em;
-  margin-right: 0.45em;
-  padding: 0.25em;
-  border-left: 1em solid white;
-  font-size: 1em;
+  color: var(--highlights);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  border-left: 0.5rem solid #0080805b;
+  border-radius: 17px;
+  font-size: 1rem;
   font-style: italic;
-  margin-bottom: 1em;;
+  margin-bottom: 1rem;
 }
 
 blockquote > :last-child {
@@ -225,19 +225,16 @@ a:focus {
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display:inline-block;
   font-size:2em;
-  background-color: black;
+  background-color: var(--background-color);
   margin-top: 2%;
   text-align: center;
   margin-bottom: auto;
-  border: white;
+  border: var(--link-color);
   border-right: solid;
 }
 .bio {
-   display: inline-block;
-  text-align: center;
- 
- 
-  
+  display: inline-block;
+  text-align: center;  
 }
 
 .bio p {
@@ -247,7 +244,10 @@ a:focus {
   border-radius: 17px;
   margin:auto;
   width: 25%;
+}
 
+.bio a{
+  color: var(--link-color);
 }
 
 .bio-avatar {
@@ -256,7 +256,9 @@ a:focus {
 
 }
 .post-list-item {
-display:inline-block;
+  display:inline-block;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica;
 }
 
 .post-list-item p {
@@ -319,14 +321,13 @@ display:inline-block;
   color: var(--link-color);
 }
 
-
 .t_d{
   display: inline-flex; 
 
   padding: 0.5em;
   border-radius: 10%;
   text-align: center;
-  border-bottom: solid white;
+  border-bottom: solid var(--highlights);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -337,8 +338,8 @@ display:inline-block;
   display: inline-block;
   border-left: solid;
   border-right: solid;
-  border-color: rgb(147, 255, 39) ;
-  color: rgb(108, 255, 100);
+  border-color: var(--link-color);
+  color: var(--highlights);
   margin-left: 46%;
 }
 
