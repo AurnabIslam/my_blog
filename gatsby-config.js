@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `AurnabsDaily`,
     author: {
-      name: `Aurnab Islam`,
+      name: `Aurnab Islam,`,
       summary: `A Web Designer/dev. based in Toronto`,
     },
     description: `A little myself and my life `,
