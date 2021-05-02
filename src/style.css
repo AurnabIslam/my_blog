@@ -1,7 +1,7 @@
 :root {
-  --background-color:#666;
+  --background-color:#444;
   --font-color:#F5FFFA;
-  --link-color:#008080;
+  --link-color:#5F9EA0;
   --highlights:#3CB371;
 }
 
@@ -134,15 +134,16 @@ ol {
   margin-bottom: 1em;
   list-style-position: outside;
   list-style-image: none;
- 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
 }
 
 ul li,
 ol li {
-
   padding-left: 0.5em;
   margin-bottom: 2em;
- 
 }
 
 li > p {
@@ -240,7 +241,7 @@ a:focus {
 }
 
 .bio p {
-  font: small-caption;
+  font-size: 1.5rem;
   text-align: center;
   border-bottom: thick var(--link-color);
   border-radius: 17px;
