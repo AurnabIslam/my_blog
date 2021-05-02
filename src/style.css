@@ -1,3 +1,9 @@
+:root {
+  --background-color:#696969;
+  --font-color:#F5FFFA;
+  --link-color:#008080;
+  --highlights:#3CB371;
+}
 
 
 *,
@@ -219,7 +225,7 @@ a:focus {
   font-size:2em;
   background-color: black;
   margin-top: 2%;
-  margin-left: 45%;
+  text-align: center;
   margin-bottom: auto;
   border: white;
   border-right: solid;
@@ -265,7 +271,7 @@ display:inline-block;
 }
 
 .blog-post-nav a{
-  color: var(--link-color);
+  color: var(--highlights);
 }
 
 
