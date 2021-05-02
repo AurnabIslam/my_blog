@@ -61,7 +61,7 @@ const BlogIndex = ({ data, location }) => {
             })}
           </ol>
 
-          <div className="storylog"> {posts.length} {(posts.lenght) === 1 ? 'Story' : 'Stories' }</div>
+          <div className="storylog"> {posts.length} {(posts.lenght) === 1 ? 'Story' : 'Stories' } to read</div>
 
     </Layout>
   )
