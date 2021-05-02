@@ -1,5 +1,5 @@
 :root {
-  --background-color:#696969;
+  --background-color:#666;
   --font-color:#F5FFFA;
   --link-color:#008080;
   --highlights:#3CB371;
@@ -206,6 +206,7 @@ a:focus {
 
 .global-wrapper {
   display: inline;
+  text-align: center;
 
 }
 
@@ -215,7 +216,9 @@ a:focus {
 }
 
 .global-header {
-  margin-bottom: 5%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 
 }
 
