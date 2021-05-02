@@ -241,7 +241,7 @@ a:focus {
 }
 
 .bio p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   border-bottom: thick var(--link-color);
   border-radius: 17px;
