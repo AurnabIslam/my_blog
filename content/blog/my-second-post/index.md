@@ -1,6 +1,7 @@
 ---
 title: Lets talk about REACT!
 date: "2021-04-27T06:46:37.121Z"
+written_by: "Aurnab Islam"
 ---
 
 After the post about wordpress i'm looking new topic to discuss.

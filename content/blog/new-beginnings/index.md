@@ -2,6 +2,7 @@
 title: About Wordpress
 date: "2021-04-26T20:40:32.169Z"
 description: This is a custom description for wordpress
+written_by: "Aurnab Islam"
 ---
 
 WordPress (WP, WordPress.org) is a free and open-source content management system

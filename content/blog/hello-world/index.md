@@ -2,6 +2,7 @@
 title: Hello World
 date: "2021-04-27T07:12:03.284Z"
 description: "Hello World"
+written_by: Aurnab Islam
 ---
 
 This is my first post on my new fake blog! How exciting!

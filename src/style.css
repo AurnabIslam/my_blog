@@ -1,4 +1,4 @@
-/
+
 
 *,
 :after,
@@ -305,6 +305,7 @@ display:inline-block;
 }
 
 .storylog{
+  text-align: center;
   display: inline-flexbox;
   padding:0.5em;
   display: inline-block;
@@ -312,12 +313,8 @@ display:inline-block;
   border-right: solid;
   border-color: rgb(147, 255, 39) ;
   color: rgb(108, 255, 100);
-  margin-left: 40%;
-  margin-bottom: 2%;
+  margin-left: 46%;
 }
-
-
-
 
 
 
