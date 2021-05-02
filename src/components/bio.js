@@ -37,9 +37,9 @@ const Bio = () => {
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
         src="../images/profile-pic.png"
-        width={50}
-        height={50}
-        quality={95}
+        width={100}
+        height={100}
+        quality={100}
         alt="Profile picture"
       />
       {author?.name && (
