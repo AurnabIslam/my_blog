@@ -122,9 +122,9 @@ p {
 
 ul,
 ol {  
-  margin-left: 0.25em;
-  margin-right: 0.25em;
-  padding: 0.5em;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  padding: 1rem;
   margin-bottom: 1em;
   list-style-position: outside;
   list-style-image: none;
@@ -175,7 +175,7 @@ blockquote > ol {
 
 table {
   width: 70%;
-  padding: 15%;
+  margin: 15%;
   margin-bottom: 0.5em;
   border-collapse: collapse;
   border-spacing: 0.25rem;
@@ -257,14 +257,14 @@ display:inline-block;
 }
 .blog-post{
   width: 70%;
-  padding: 15%;
+  margin: 15%;
 }
 
 .blog-post a{
   color: var(--link-color);
 }
 
-.blog-post-nav{
+.blog-post-nav a{
   color: var(--link-color);
 }
 
@@ -305,9 +305,10 @@ display:inline-block;
   text-align: center;
   width: 80%;
   padding: 10%;
-
 }
-
+.gatsby-focus-wrapper a{
+  color: var(--link-color);
+}
 
 
 .t_d{
